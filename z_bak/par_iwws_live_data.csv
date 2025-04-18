@@ -1,0 +1,102 @@
+;;;;;;T:/acquedotto/modello_idraulico/Misure_portate_pressioni/svolgimento/dati;;;;;T:/acquedotto/modello_idraulico/calibrazione/iwws_live_data;;;
+n;date_type;row1;sep;dir_in;type_inp;file_in;file_out;tipo_org;tipo_mis;udm;descri;note;file_corretto;note_correz
+1;ITA;1;TAB;serbatoi;mean_3_4;POLLER000000723_20231017_0000_20231103_2400_CEP.csv;cal01_SER003_0723_28774_cep_liv;serbatoio;level;m;SER003 - C.E.P. - Misura livello vasca destra (m);serbatoio modellato con un'unica depth-volume curve - livello per le due vasche sembra comparabile;;
+2;; ;;;x;POLLER000000723_20231017_0000_20231103_2400_CEP.csv;;;;;SER003 - C.E.P. - Misura livello vasca sinistra (m);serbatoio modellato con un'unica depth-volume curve - livello per le due vasche sembra comparabile;;
+3;ITA;1;TAB;serbatoi;2q_5_6;POLLER000000723_20231017_0000_20231103_2400_CEP.csv;cal03_SER003_0723_28784_cep_q;meter;flow;l/s;SER003 - C.E.P. - Portata ingresso vasca (l/s);stessa condotta/ stesso meter? Unificare le due serie uscita/ingresso in caso e aggiungere elemento meter in geometria;;
+4; ; ; ; ;x;POLLER000000723_20231017_0000_20231103_2400_CEP.csv;;;;;SER003 - C.E.P. - Portata uscita vasca (l/s);stessa condotta/ stesso meter? Unificare le due serie uscita/ingresso in caso e aggiungere elemento meter in geometria;;
+5;ITA;1;TAB;serbatoi;mean_2_3;POLLER000000729_20231017_0000_20231103_2400_Flavon.csv;cal05_SER004_0729_28774_flavon_liv;serbatoio;level;m;SER004 - Flavon - Misura livello vasca destra (m);serbatoio modellato con un'unica depth-volume curve;;
+6;;;;;x;POLLER000000729_20231017_0000_20231103_2400_Flavon.csv;;;;;SER004 - Flavon - Misura livello vasca sinistra (m);serbatoio modellato con un'unica depth-volume curve;;
+7;ITA;1;TAB;serbatoi;2q_4_5;POLLER000000729_20231017_0000_20231103_2400_Flavon.csv;cal07_SER004_0729_28784_flavon_q;meter;flow;l/s;SER004 - Flavon - Portata ingresso vasca (l/s);stessa condotta/ stesso meter? Unificare le due colonne in caso e aggiungere elemento in geometria;;
+8;;;;;x;POLLER000000729_20231017_0000_20231103_2400_Flavon.csv;;;;;SER004 - Flavon - Portata uscita vasca (l/s);stessa condotta/ stesso meter? Unificare le due colonne in caso e aggiungere elemento in geometria;;
+9;STD;1;semicolon;serbatoi;mean_3_4;POLLER000000747_20231017_0000_20231103_2400_S.Giorgio.csv;cal09_SER007_0747_28774_s_giorgio_liv;serbatoio;level;m;SER007 - San Giorgio - Misura livello vasca destra (m);;inp_pide_s_giorgio.csv;
+10;;;;;x;POLLER000000747_20231017_0000_20231103_2400_S.Giorgio.csv;;;;;SER007 - San Giorgio - Misura livello vasca sinistra (m);;-----|;-----|
+11;STD;1;semicolon;serbatoi;simple_5;POLLER000000747_20231017_0000_20231103_2400_S.Giorgio.csv;cal11_SER007_0747_28784_s_giorgio_q;meter;flow;l/s;SER007 - San Giorgio - Portata ingresso vasca (l/s);;-----|;-----|
+12;STD;1;semicolon;serbatoi;simple_6;POLLER000000747_20231017_0000_20231103_2400_S.Giorgio.csv;cal12_SER007_0747_28792_s_gio_guncina_q;meter;flow;l/s;SER007 - San Giorgio - Portata uscita Guncina (l/s);;-----|;-----|
+13;STD;1;semicolon;serbatoi;simple_7;POLLER000000747_20231017_0000_20231103_2400_S.Giorgio.csv;cal13_SER007_0747_28794_s_gio_refenstein_q;meter;flow;l/s;SER007 - San Giorgio - Portata uscita Refenstein (l/s);;-----|;-----|
+14;ITA;1;TAB;serbatoi;simple_3;POLLER000000756_20231017_0000_20231103_2400_S.Maurizio.csv;cal14_SER002_0756_28772_s_maurizio_liv;serbatoio;level;m;SER002 - San Maurizio - Misura livello vasca sinistra (m);;;
+15;ITA;1;TAB;serbatoi;simple_4;POLLER000000756_20231017_0000_20231103_2400_S.Maurizio.csv;cal15_SER002_0756_28784_s_maurizio_q_in;meter;flow;l/s;SER002 - San Maurizio - Portata ingresso vasca (l/s);meter da aggiungere nel modello;;
+16;ITA;1;TAB;serbatoi;simple_5;POLLER000000756_20231017_0000_20231103_2400_S.Maurizio.csv;cal16_SER002_0756_28786_s_maurizio_q_out;meter;flow;l/s;SER002 - San Maurizio - Portata uscita vasca (l/s);meter da aggiungere nel modello;;
+17;STD;1;semicolon;serbatoi;mean_2_3;POLLER000000760_20231017_0000_20231103_2400_S.Pietro.csv;cal17_SER008_0760_28938_s_pietro_nuovo_liv;serbatoio;level;m;SER008/11-RIL002 - S Pietro - Misura livello serbatoio Nuovo DX e SX (m);serbatoio modellato con un'unica depth-volume curve;POLLER000000760_20231017_0000_20231103_2400_S.Pietro.csv;affiancate le due colonne di serb. S. Pietro
+18;;;;;x;POLLER000000760_20231017_0000_20231103_2400_S.Pietro.csv;;;;;;;-----|;-----|
+19;STD;1;semicolon;serbatoi;simple_4;POLLER000000760_20231017_0000_20231103_2400_S.Pietro.csv;cal19_SER008_0760_28778_s_pietro_alto_liv;serbatoio;level;m;SER008/11-RIL002 - S Pietro - Misura livello serbatoio S. Pietro Alto SX (m);serbatoio modellato con un'unica depth-volume curve;-----|;-----|
+20;STD;1;semicolon;serbatoi;mean_5_6;POLLER000000760_20231017_0000_20231103_2400_S.Pietro.csv;cal20_SER008_0760_28776_s_pietro_vecchio_liv;serbatoio;level;m;SER008/11-RIL002 - S Pietro - Misura livello serbatoio Vecchio DX e SX (m);serbatoio modellato con un'unica depth-volume curve;-----|;-----|
+21;;;;;x;POLLER000000760_20231017_0000_20231103_2400_S.Pietro.csv;;;;;;;-----|;-----|
+22;STD;1;semicolon;serbatoi;simple_7;POLLER000000760_20231017_0000_20231103_2400_S.Pietro.csv;cal22_SER008_0760_28968_s_pietro_citta_vecchia_q;meter;flow;l/s;SER008/11-RIL002 - S Pietro - Portata uscita Citta Vecchia (l/s);;;
+23;STD;1;semicolon;serbatoi;simple_8;POLLER000000760_20231017_0000_20231103_2400_S.Pietro.csv;cal23_SER008_0760_28966_s_pietro_prato_volpe_q;meter;flow;l/s;SER008/11-RIL002 - S Pietro - Portata uscita Prato Volpe (l/s);;;
+24;STD;1;semicolon;serbatoi;2q_9_10;POLLER000000760_20231017_0000_20231103_2400_S.Pietro.csv;cal24_SER008_0760_28970_s_pietro_q;meter;flow;l/s;SER008/11-RIL002 - S Pietro - Portata uscita serb. S. Pietro (l/s);;;
+25;;;;;x;POLLER000000760_20231017_0000_20231103_2400_S.Pietro.csv;;;;;;;;
+26;ITA;1;TAB;serbatoi;simple_2;POLLER000000761_20231017_0000_20231103_2400_Campegno.csv;cal26_SER001_0761_28772_campegno_liv;serbatoio;level;m;SER001 - Campegno - Misura livello vasca campegno (m);;;
+27;ITA;1;TAB;serbatoi;simple_3;POLLER000000761_20231017_0000_20231103_2400_Campegno.csv;cal27_SER001_0761_28774_campegno_q_ingresso;meter;flow;l/s;SER001 - Campegno - Misura portata ingresso Campegno (l/s);;;
+28;ITA;1;TAB;serbatoi;simple_4;POLLER000000761_20231017_0000_20231103_2400_Campegno.csv;cal28_SER001_0761_28778_campegno_cardano_q;meter;flow;l/s;SER001 - Campegno - Misura portata uscita Cardano (l/s);;;
+29;ITA;1;TAB;serbatoi;simple_5;POLLER000000761_20231017_0000_20231103_2400_Campegno.csv;cal29_SER001_0761_28776_campegno_piani_q;meter;flow;l/s;SER001 - Campegno - Misura portata uscita Piani (l/s);;;
+30;STD;1;semicolon;serbatoi;simple_2;VIRTUAL00000278_20231017_0000_20231103_2400_S.Pietro_sup.csv;cal30_SER008_0278_0_SEAB__26000009_s_pietro_sup_serb_sx_liv;serbatoio;level;m;SER009 - San Pietro Superiore - Livello serbatoio SX (m);;;
+31;ITA;1;TAB;pozzi;simple_2;POLLER000000727_20231017_0000_20231103_2400_Aeroporto.csv;cal31_POZ001_0727_28772_aeroporto_falda_liv;pozzo;level;m;POZ001 - Aeroporto - Misura livello falda (m);;;
+32;ITA;1;TAB;pozzi;simple_3;POLLER000000727_20231017_0000_20231103_2400_Aeroporto.csv;cal32_POZ001_0727_28942_aeroporto_q;meter;flow;l/s;POZ001 - Aeroporto - Misura portata rete modbus (l/s);;;
+33;ITA;1;TAB;pozzi;simple_4;POLLER000000727_20231017_0000_20231103_2400_Aeroporto.csv;cal33_POZ001_0727_28774_aeroporto_rete_p;nodo;pressure;bar;POZ001 - Aeroporto - Misura pressione rete (bar);;;
+34;ITA;1;TAB;pozzi;simple_3;POLLER000000728_20231017_0000_20231103_2400_Tambosi.csv;cal34_POZ003_0728_28772_tambosi_falda_liv;pozzo;level;m;POZ003/RIL001 - Tambosi - Misura livello falda (m);;;
+35;ITA;1;TAB;pozzi;simple_4;POLLER000000728_20231017_0000_20231103_2400_Tambosi.csv;cal35_POZ003_0728_28950_tambosi_q;meter;flow;l/s;POZ003/RIL001 - Tambosi - Misura portata rete modbus (l/s);;;
+36;ITA;1;TAB;pozzi;simple_5;POLLER000000728_20231017_0000_20231103_2400_Tambosi.csv;cal36_POZ003_0728_28776_tambosi_rete_p;nodo;pressure;bar;POZ003/RIL001 - Tambosi - Misura pressione rete (bar);;;
+37;ITA;1;TAB;pozzi;simple_3;POLLER000000731_20231017_0000_20231103_2400_Parma.csv;cal37_POZ002_0731_28772_parma_falda_liv;pozzo;level;m;POZ002 - Parma - Misura livello falda (m);;;
+38;ITA;1;TAB;pozzi;simple_4;POLLER000000731_20231017_0000_20231103_2400_Parma.csv;cal38_POZ002_0731_28942_parma_q;meter;flow;l/s;POZ002 - Parma - Misura portata rete modbus (l/s);;;
+39;ITA;1;TAB;pozzi;simple_5;POLLER000000731_20231017_0000_20231103_2400_Parma.csv;cal39_POZ002_0731_28774_parma_rete_p;nodo;pressure;bar;POZ002 - Parma - Misura pressione rete (bar);;;
+40;ITA;1;TAB;pozzi;simple_3;POLLER000000732_20231017_0000_20231103_2400_Macello.csv;cal40_POZ008_0732_28772_macello_centr_ovest_falda_liv;pozzo;level;m;POZ008/10 - Macello - Misura livello falda Centrale (m);confermare corrispondenza con nodi: Macello_Ovest_nodo_monte, Macello_Est_nodo_monte;;
+41;ITA;1;TAB;pozzi;simple_4;POLLER000000732_20231017_0000_20231103_2400_Macello.csv;cal41_POZ008_0732_28778_macello_foppa_est_falda_liv;pozzo;level;m;POZ008/10 - Macello - Misura livello falda Foppa (m);confermare corrispondenza con nodi: Macello_Ovest_nodo_monte, Macello_Est_nodo_monte;;
+42;ITA;1;TAB;pozzi;simple_5;POLLER000000732_20231017_0000_20231103_2400_Macello.csv;cal42_POZ008_0732_28948_macello_q;meter;flow;l/s;POZ008/10 - Macello - Misura portata rete modbus (l/s);;;
+43;ITA;1;TAB;pozzi;simple_6;POLLER000000732_20231017_0000_20231103_2400_Macello.csv;cal43_POZ008_0732_28774_macello_rete_p;nodo;pressure;bar;POZ008/10 - Macello - Misura pressione rete (bar);;;
+44;ITA;1;TAB;pozzi;simple_2;POLLER000000735_20231017_0000_20231103_2400_Battisti.csv;cal44_POZ008_0735_28772_battisti_falda_liv;pozzo;level;m;POZ005 - Battisti - Misura livello falda (m);;;
+45;ITA;1;TAB;pozzi;simple_3;POLLER000000735_20231017_0000_20231103_2400_Battisti.csv;cal45_POZ008_0735_28942_battisti_q;meter;flow;l/s;POZ005 - Battisti - Misura portata rete modbus (l/s);;;
+46;ITA;1;TAB;pozzi;simple_4;POLLER000000735_20231017_0000_20231103_2400_Battisti.csv;cal46_POZ008_0735_28774_battisti_rete_p;nodo;pressure;bar;POZ005 - Battisti - Misura pressione rete (bar);;;
+47;ITA;1;TAB;pozzi;simple_3;POLLER000000736_20231017_0000_20231103_2400_Petrarca.csv;cal47_POZ009_0736_28772_petrarca_falda_liv;pozzo;level;m;POZ009 - Petrarca - Misura livello falda (m);;;
+48;ITA;1;TAB;pozzi;simple_4;POLLER000000736_20231017_0000_20231103_2400_Petrarca.csv;cal48_POZ009_0736_28942_petrarca_q;meter;flow;l/s;POZ009 - Petrarca - Misura portata rete modbus (l/s);;;
+49;ITA;1;TAB;pozzi;simple_5;POLLER000000736_20231017_0000_20231103_2400_Petrarca.csv;cal49_POZ009_0736_28774_petrarca_rete_p;nodo;pressure;bar;POZ009 - Petrarca - Misura pressione rete (bar);;;
+50;ITA;1;TAB;pozzi;simple_2;POLLER000000737_20231017_0000_20231103_2400_Cardano.csv;cal50_POZ006_0737_28772_cardano_falda_liv;pozzo;level;m;POZ006 - Cardano - Misura livello falda (m);;;
+51;ITA;1;TAB;pozzi;simple_3;POLLER000000737_20231017_0000_20231103_2400_Cardano.csv;cal51_POZ006_0737_28944_cardano_q;meter;flow;l/s;POZ006 - Cardano - Misura portata rete modbus (l/s);;;
+52;ITA;1;TAB;pozzi;simple_4;POLLER000000737_20231017_0000_20231103_2400_Cardano.csv;cal52_POZ006_0737_28774_cardano_rete_p;nodo;pressure;bar;POZ006 - Cardano - Misura pressione rete (bar);;;
+53;ITA;1;TAB;pozzi;simple_2;POLLER000000738_20231017_0000_20231103_2400_Mazzini.csv;cal53_POZ007_0738_28772_mazzini_falda_liv;pozzo;level;m;POZ007 - Mazzini - Misura livello falda (m);[at: fondamentalmente non ci sono dati, tranne 3-4 righe];;
+54;ITA;1;TAB;pozzi;simple_3;POLLER000000738_20231017_0000_20231103_2400_Mazzini.csv;cal54_POZ007_0738_28942_mazzini_q;meter;flow;l/s;POZ007 - Mazzini - Misura portata rete modbus (l/s);;;
+55;ITA;1;TAB;pozzi;simple_4;POLLER000000738_20231017_0000_20231103_2400_Mazzini.csv;cal55_POZ007_0738_28774_mazzini_rete_p;nodo;pressure;bar;POZ007 - Mazzini - Misura pressione rete (bar);;;
+56;ITA;1;TAB;pozzi;simple_3;POLLER000000743_20231017_0000_20231103_2400_Ronco.csv;cal56_POZ004_0743_28932_ronco_1_sud_asilo_falda_liv;pozzo;level;m;POZ004/12/13 - Ronco - Misura livello falda pozzo 1 (m);confermare corrispondenza con nodi:: Ronco_Nord_nodo_monte, Ronco_Sud_nodo_monte, Ronco_Ovest_nodo_monte;;
+57;ITA;1;TAB;pozzi;simple_4;POLLER000000743_20231017_0000_20231103_2400_Ronco.csv;cal57_POZ004_0743_28934_ronco_2_ovest_crip_falda_liv;pozzo;level;m;POZ004/12/13 - Ronco - Misura livello falda pozzo 2 (m);confermare corrispondenza con nodi:: Ronco_Nord_nodo_monte, Ronco_Sud_nodo_monte, Ronco_Ovest_nodo_monte;;
+58;ITA;1;TAB;pozzi;simple_5;POLLER000000743_20231017_0000_20231103_2400_Ronco.csv;cal58_POZ004_0743_28936_ronco_3_nord_centr_falda_liv;pozzo;level;m;POZ004/12/13 - Ronco - Misura livello falda pozzo 3 (m);confermare corrispondenza con nodi:: Ronco_Nord_nodo_monte, Ronco_Sud_nodo_monte, Ronco_Ovest_nodo_monte;;
+59;ITA;1;TAB;pozzi;simple_6;POLLER000000743_20231017_0000_20231103_2400_Ronco.csv;cal59_POZ004_0743_28940_ronco_1_sud_asilo_q;meter;flow;l/s;POZ004/12/13 - Ronco - Misura portata pozzo 1 (l/s);;;
+60;ITA;1;TAB;pozzi;simple_7;POLLER000000743_20231017_0000_20231103_2400_Ronco.csv;cal60_POZ004_0743_28942_ronco_2_ovest_crip_q;meter;flow;l/s;POZ004/12/13 - Ronco - Misura portata pozzo 2 (l/s);;;
+61;ITA;1;TAB;pozzi;simple_8;POLLER000000743_20231017_0000_20231103_2400_Ronco.csv;cal61_POZ004_0743_28944_ronco_3_nord_centr_q;meter;flow;l/s;POZ004/12/13 - Ronco - Misura portata pozzo 3 (l/s);;;
+62;ITA;1;TAB;pozzi;simple_9;POLLER000000743_20231017_0000_20231103_2400_Ronco.csv;cal62_POZ004_0743_28818_ronco_q_totale;meter;flow;l/s;POZ004/12/13 - Ronco - Misura portata Ronco Totale (l/s);;;
+63;ITA;1;TAB;pozzi;simple_10;POLLER000000743_20231017_0000_20231103_2400_Ronco.csv;cal63_POZ004_0743_28938_ronco_3_nord_centr_rete_p;nodo;pressure;bar;POZ004/12/13 - Ronco - Misura pressione rete pozzo 3 (bar);;;
+64;ITA;1;TAB;pozzi;simple_11;POLLER000000743_20231017_0000_20231103_2400_Ronco.csv;cal64_POZ004_0743_28938_ronco_3_nord_centr_rete_p_perc;nodo;pressure;%;POZ004/12/13 - Ronco - Misura pressione rete pozzo 3 (Centrale) (%);;;
+65;STD;1;semicolon;rilanci;simple_3;POLLER000000748_20231017_0000_20231103_2400_S.Giorgio.csv;cal65_RIL003_0748_28964_ril_s_giorgio_miram_q_imp;meter;flow;l/s;RIL003 - San Giorgio - Misura portata Miramonti (impulsiva) (mc);controllare unita` di misura;;
+66;STD;1;semicolon;rilanci;simple_4;POLLER000000748_20231017_0000_20231103_2400_S.Giorgio.csv;cal66_RIL003_0748_28962_ril_s_giorgio_rete_q_imp;meter;flow;l/s;RIL003 - San Giorgio - Misura portata rete (impulsiva) (mc);controllare unita` di misura;;
+67;STD;1;semicolon;rilanci;simple_5;POLLER000000748_20231017_0000_20231103_2400_S.Giorgio.csv;cal67_RIL003_0748_28772_ril_s_giorgio_miram_p;nodo;pressure;bar;RIL003 - San Giorgio - Misura pressione Miramonti (bar);;;
+68;STD;1;semicolon;rilanci;simple_6;POLLER000000748_20231017_0000_20231103_2400_S.Giorgio.csv;cal68_RIL003_0748_28774_ril_s_giorgio_rete_p;nodo;pressure;bar;RIL003 - San Giorgio - Misura pressione rete (bar);;;
+69;STD;1;semicolon;rilanci;simple_7;POLLER000000748_20231017_0000_20231103_2400_S.Giorgio.csv;cal69_RIL003_0748_28776_ril_s_giorgio_rilancio_p;nodo;pressure;bar;RIL003 - San Giorgio - Misura pressione rilancio (bar);;;
+70;STD;1;semicolon;rilanci;simple_3;POLLER000000759_20231017_0000_20231103_2400_S.Maddalena.csv;cal70_RIL004_0759_28962_s_madda_usc_serb_q;meter;flow;l/s;RIL004/SER010 - S.Maddalena - Misura portata uscita serbatoio (impulsiva) (l/s);;;
+71;STD;1;semicolon;rilanci;simple_4;POLLER000000759_20231017_0000_20231103_2400_S.Maddalena.csv;cal71_RIL004_0759_28774_s_madda_rete_p;nodo;pressure;bar;RIL004/SER010 - S.Maddalena - Misura pressione rete (bar);;;
+72;STD;1;semicolon;rilanci;simple_5;POLLER000000759_20231017_0000_20231103_2400_S.Maddalena.csv;cal72_RIL004_0759_28776_s_madda_rilancio_p;nodo;pressure;bar;RIL004/SER010 - S.Maddalena - Misura pressione rilancio (bar);;;
+73;STD;1;semicolon;rilanci;simple_2;POLLER000000762_20231017_0000_20231103_2400_Costa_di_Sotto.csv;cal73_RIL005_0762_28772_costa_di_sotto_rilancio_q;meter;flow;l/s;RIL005 - Costa di Sotto - Misura portata rilancio (l/s);;;
+74;STD;1;semicolon;rilanci;simple_3;POLLER000000762_20231017_0000_20231103_2400_Costa_di_Sotto.csv;cal74_RIL005_0762_28774_costa_di_sotto_rete_p;nodo;pressure;bar;RIL005 - Costa di Sotto - Misura pressione rete (bar);;;
+75;STD;1;semicolon;rilanci;simple_4;POLLER000000762_20231017_0000_20231103_2400_Costa_di_Sotto.csv;cal75_RIL005_0762_28776_costa_di_sotto_rilancio_p;nodo;pressure;bar;RIL005 - Costa di Sotto - Misura pressione rilancio (bar);;;
+76;STD;1;semicolon;sorgenti;simple_2;POLLER000000749_20231017_0000_20231103_2400_Collare.csv;cal76_SOR002_0749_28778_collare_sorgente_modbus_q;meter;flow;l/s;SOR002 - Collare - Misura portata sorgente modbus (l/s);necessario inserire meter a valle del transfer node;;
+77;STD;1;semicolon;sorgenti;simple_2;POLLER000000754_20231017_0000_20231103_2400_Grifo.csv;cal77_SOR003_0754_28778_grifo_sorgente_q_imp;meter;flow;l/s;SOR003 - Grifo - Misura portata sorgente impulsiva (l/s);nessun valore. Si puo` pero` predisporre il meter nella geometria;;
+78;ITA;1;semicolon;campagna_mis;simple_1;pide_campagna_mis_q.csv;cal78_DST005_0361_20251_Q_01_ponte_resia_q;meter;flow;l/s;Ponte Resia;;;
+79;ITA;1;semicolon;campagna_mis;simple_2;pide_campagna_mis_q.csv;cal79_DST001_0763_20576_Q_02_ponte_talvera_q;meter;flow;l/s;Ponte Talvera;;;
+80;ITA;1;semicolon;campagna_mis;simple_3;pide_campagna_mis_q.csv;cal80_DST002_0767_20576_Q_03_ponte_druso_q;meter;flow;l/s;Ponte Druso;;;
+81;ITA;1;semicolon;campagna_mis;simple_4;pide_campagna_mis_q.csv;cal81_DST007_0837_20576_Q_04_valdega_carab_q;meter;flow;l/s;Via Val d'Ega - Carabinieri;;;
+82;ITA;1;semicolon;campagna_mis;simple_5;pide_campagna_mis_q.csv;cal82_DST006_0766_20576_Q_05_rencio_x_s_giustina_q;meter;flow;l/s;Via Rencio incrocio via Santa Giustina;;;
+83;ITA;1;semicolon;campagna_mis;simple_6;pide_campagna_mis_q.csv;cal83_DST003_0765_20576_Q_06_ponte_roma_q;meter;flow;l/s;Ponte Roma;;;
+84;ITA;1;semicolon;campagna_mis;simple_7;pide_campagna_mis_q.csv;cal84_SER002_0756_28784_Q_07_serb_s_maurizio_q;meter;flow;l/s;Serbatoio San Maurizio;;;
+85;ITA;1;semicolon;campagna_mis;simple_8;pide_campagna_mis_q.csv;cal85____Q_08_rilancio_cep_q;meter;flow;l/s;Rilancio CEP;;;
+86;ITA;1;semicolon;campagna_mis;simple_1;pide_campagna_mis_p.csv;cal86_DST005_0361_20496_H_01_ponte_resia_p;nodo;pressure;m;Ponte Resia;;;
+87;ITA;1;semicolon;campagna_mis;simple_2;pide_campagna_mis_p.csv;cal87____H_02_lungo_talvera_gries_p;nodo;pressure;m;Lungo Talvera Gries;;;
+88;ITA;1;semicolon;campagna_mis;simple_3;pide_campagna_mis_p.csv;cal88____H_03_druso_1a_p;nodo;pressure;m;Via Druso, 1/A;;;
+89;ITA;1;semicolon;campagna_mis;simple_4;pide_campagna_mis_p.csv;cal89_DST007_0837_20481_H_04_d_ega_carabin_p;nodo;pressure;m;Via Val d'Ega - Carabinieri;;;
+90;ITA;1;semicolon;campagna_mis;simple_5;pide_campagna_mis_p.csv;cal90_DST006_0766_20481_H_05_rencio_x_s_giustina_p;nodo;pressure;m;Via Rencio incrocio via Santa Giustina;;;
+91;ITA;1;semicolon;campagna_mis;simple_6;pide_campagna_mis_p.csv;cal91_DST003_0765_20481_H_06_ponte_roma_p;nodo;pressure;m;Ponte Roma;;;
+92;ITA;1;semicolon;campagna_mis;simple_7;pide_campagna_mis_p.csv;cal92____H_07_c_firmiano_33_p;nodo;pressure;m;Via Castel Firmiano, 33;;;
+93;ITA;1;semicolon;campagna_mis;simple_8;pide_campagna_mis_p.csv;cal93____H_08_vittorio_veneto_84_p;nodo;pressure;m;Via Vittorio Veneto, 84;;;
+94;ITA;1;semicolon;campagna_mis;simple_9;pide_campagna_mis_p.csv;cal94____H_09_castel_roncolo_23_p;nodo;pressure;m;Via Castel Roncolo, 23;;;
+95;ITA;1;semicolon;campagna_mis;simple_10;pide_campagna_mis_p.csv;cal95____H_10_portici_35_p;nodo;pressure;m;Via Portici, 35;;;
+96;ITA;1;semicolon;campagna_mis;simple_11;pide_campagna_mis_p.csv;cal96____H_11_v_d_ega_43_p;nodo;pressure;m;Via Val d'Ega, 43;;;
+97;ITA;1;semicolon;campagna_mis;simple_12;pide_campagna_mis_p.csv;cal97____H_12_p_zza_casagrande_p;nodo;pressure;m;Piazza M. Casagrande;;;
+98;ITA;1;semicolon;campagna_mis;simple_13;pide_campagna_mis_p.csv;cal98____H_13_castel_weinegg_p;nodo;pressure;m;Via Castel Weinegg;;;
+99;ITA;1;semicolon;campagna_mis;simple_14;pide_campagna_mis_p.csv;cal99____H_14_copernico_10_p;nodo;pressure;m;Via Copernico, 10;;;
+100;ITA;1;semicolon;campagna_mis;simple_15;pide_campagna_mis_p.csv;cal100____H_15_campofranco_ipp_p;nodo;pressure;m;Via Campofranco - ippodromo;;;
