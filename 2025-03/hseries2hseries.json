@@ -1,0 +1,76 @@
+{
+  "11a_SER007_0747_s_gio_qcalc": {
+      "type": "deriv"
+      , "params": {
+        "level": "09_SER007_0747_28774_s_gio_liv"
+        , "dt": 900
+        , "ini_val": 2.765
+        , "area": 48.8
+        , "fluxes": {
+           "12_SER007_0747_28792_s_gio_guncina_q": -1
+           ,"13_SER007_0747_28794_s_gio_refenstein_q": -1
+           }
+      }
+  }
+  , "14a_SER002_0756_s_maurizio_qcalc": {
+     "type": "deriv"
+     ,"params": {
+        "level": "14_SER002_0756_28772_s_maurizio_liv"
+        , "dt": 900
+        , "ini_val": 2.56
+        , "area": 21.78
+        , "fluxes": {
+           "15_SER002_0756_28784_s_maurizio_q_in": -1
+           ,"16_SER002_0756_28786_s_maurizio_q_out": -1
+        }
+     }
+  }
+  , "39a_POZ002_0731_28774_parma_rete_h": {
+     "type": "p-h"
+     ,"params": {
+        "p": "39_POZ002_0731_28774_parma_rete_p"
+        , "udm_k": 9.81
+        , "z": 100.00
+     }
+  }
+  , "46a_POZ008_0735_28774_battisti_rete_h": {
+     "type": "p-h"
+     ,"params": {
+        "p": "46_POZ008_0735_28774_battisti_rete_p"
+        , "udm_k": 9.81
+        , "z": 100.00
+     }
+  }
+  , "49a_POZ009_0736_28774_petrarca_rete_h": {
+     "type": "p-h"
+     ,"params": {
+        "p": "49_POZ009_0736_28774_petrarca_rete_p"
+        , "udm_k": 9.81
+        , "z": 100.00
+     }
+  }
+  , "55a_POZ007_0738_28774_mazzini_rete_h": {
+     "type": "p-h"
+     ,"params": {
+        "p": "55_POZ007_0738_28774_mazzini_rete_p"
+        , "udm_k": 9.81
+        , "z": 100.00
+     }
+  }
+  , "63a_POZ004_0743_28938_ronco_3_nord_centr_rete_h": {
+     "type": "p-h"
+     ,"params": {
+        "p": "63_POZ004_0743_28938_ronco_3_nord_centr_rete_p"
+        , "udm_k": 9.81
+        , "z": 100.00
+     }
+  }
+  , "68a_RIL003_0748_28774_ril_s_giorgio_rete_h": {
+     "type": "p-h"
+     ,"params": {
+        "p": "68_RIL003_0748_28774_ril_s_giorgio_rete_p"
+        , "udm_k": 9.81
+        , "z": 100.00
+     }
+  }
+}
